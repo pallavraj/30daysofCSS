@@ -162,3 +162,63 @@
 
 
 
+/*GRADIENT BORDER BUTTON*/
+
+.gradient-button-1{
+
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+    padding: 20px 40px;
+    font-size: 1.4rem;
+    box-sizing: border-box;
+    background-color: whitesmoke;
+    border: solid 10px transparent;
+    border-image: linear-gradient(to top right,orangered, greenyellow);
+    border-image-slice:1;
+    color: orangered;
+    transition: all .3s ease;
+}
+
+.gradient-button-1:hover{
+    background-image: linear-gradient(to top right,orangered,yellowgreen);
+    color: #FFFF;
+}
+
+.gradient-button-2{
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+    padding: 20px 40px;
+    font-size: 1.4rem;
+    box-sizing: border-box;
+    background-color: whitesmoke;
+    border: solid 10px transparent;
+    border-image: linear-gradient(to  right,orangered, transparent);
+    border-image-slice:1;
+    color: orangered;
+    transition: all .3s ease;
+}
+
+.gradient-button-2:hover{
+    background-image: linear-gradient(to right,orangered,transparent);
+    color: #FFFF;
+    border-right-style:none;
+}
+
+/*ANIMATED BUTTON*/
+
+
+.animated-button-1{
+
+
+
+}
+
+
+
+
+
+
+
+
