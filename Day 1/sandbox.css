@@ -382,7 +382,7 @@
 }
 
 .toggle-2__input:checked+ .toggle-2__button::before{
-    background-color: white;
+    background-color: whitesmoke;
 }
 
 
